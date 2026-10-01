@@ -1,0 +1,20 @@
+# Tool-Based Agents (Servers) - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Strands Agents SDK - AI agent framework
+# https://pypi.org/project/strands-agents/
+strands-agents==1.57.2
+
+# Loads the repo-root .env (AWS_PROFILE, AWS_REGION, STRANDS_MODEL_*) in shared/model.py
+# https://pypi.org/project/python-dotenv/
+python-dotenv==1.2.4
+
+# MCP (Model Context Protocol) - tool server communication
+# https://pypi.org/project/mcp/
+# The lab code uses the mcp 2.x API (MCPServer, streamable_http_client,
+# transport options on run()). strands-agents 1.57 supports mcp >=1.23,<2.2;
+# 2.1.1 is the newest release inside that range.
+mcp==2.1.1
+
+# UV - provides uvx command for running MCP servers via stdio transport
+uv==0.12.21
