@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
 ### Connecting an Agent
 
-The [`MCPClient`](https://strandsagents.com/docs/user-guide/concepts/tools/mcp-tools/) handles the connection lifecycle and tool discovery. Open it as a context manager, list the tools, and hand them to the agent:
+The [`MCPClient`](https://strandsagents.com/docs/user-guide/sdk/tools/mcp-tools/) handles the connection lifecycle and tool discovery. Open it as a context manager, list the tools, and hand them to the agent:
 
 ```python
 from mcp.client.streamable_http import streamable_http_client
@@ -230,7 +230,7 @@ The primary agent connects exactly like it did to the calculator. It just sees `
 - [Companion blog post: Delegating Work: Tool Servers and the Model Context Protocol](Delegating%20Work%20-%20Tool%20Servers%20and%20the%20Model%20Context%20Protocol.md)
 - [AWS Prescriptive Guidance - Tool-based agents for servers](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/tool-based-agents-for-servers.html)
 - [Model Context Protocol](https://modelcontextprotocol.io)
-- [Strands MCP tools documentation](https://strandsagents.com/docs/user-guide/concepts/tools/mcp-tools/)
+- [Strands MCP tools documentation](https://strandsagents.com/docs/user-guide/sdk/tools/mcp-tools/)
 - [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
 
 ### The series
