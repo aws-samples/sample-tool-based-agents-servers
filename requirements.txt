@@ -17,4 +17,4 @@ python-dotenv==1.2.4
 mcp==2.1.1
 
 # UV - provides uvx command for running MCP servers via stdio transport
-uv==0.12.21
+uv==0.13.4
